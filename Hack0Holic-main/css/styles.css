@@ -30,15 +30,19 @@ button{
 }
  
 .mainn{
-    margin-top: 20px;
-    height: 648px;
-    /* overflow: visible;
-    width: fit-content; */
+  background: url('BLUE.png');
+      margin-top: 20px;
+     height: 648px; 
+    overflow: visible;
+    /*width: fit-content; */
     width: 100%;
+
 }
 
 
 .hero{
+  background: url('BLUE.png');
+  background-size: cover;
   display: flex;
   /* margin: ; */
   z-index: 0;
@@ -174,7 +178,7 @@ select,.choose{
 }
 
 .categories{
-  margin-top: 40px;
+  margin-top: 0px;
   padding: 20px;
   height: 700px;
   background-image: url('BLUE.png');
@@ -1025,7 +1029,6 @@ nav .icon-burger .line {
  .col-sm-4 {
    width: 100%;
  }
- .
 }
 
 @media (min-width: 0px) and (max-width: 768px) {
