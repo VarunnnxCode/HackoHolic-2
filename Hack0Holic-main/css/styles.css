@@ -291,12 +291,13 @@ select,.choose{
 /*MOBNAV*/
 nav {
 	position: fixed;
+  width: 100vw;
 	z-index: 10;
 	left: 0;
 	right: 0;
 	top: 0;
 	font-family: 'Montserrat', sans-serif;
-	padding: 0 5%;
+	padding: 0 0;
 	height: 100px;
 	background-color: #3e65da;
 }
